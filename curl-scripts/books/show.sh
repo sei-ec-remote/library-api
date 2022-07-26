@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API="http://localhost:4741"
+API="http://localhost:8000"
 URL_PATH="/books"
 
 curl  "${API}${URL_PATH}/${ID}" \
