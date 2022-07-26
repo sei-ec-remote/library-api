@@ -4,7 +4,7 @@
 
 A simple API for books.
 
-Lives at https://library-express-api.herokuapp.com
+Lives at 
 
 ## Structure
 
@@ -19,8 +19,6 @@ correspond to API actions.
 
 - [Authors](./docs/authors.md)
 - [Books](./docs/books.md)
-- [Librarians](./docs/librarians.md)
-- [Members](./docs/members.md)
 
 ### Protected Resources:
 
