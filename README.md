@@ -4,7 +4,7 @@
 
 A simple API for books.
 
-Lives at https://ga-remote-library-api.herokuapp.com/
+Lives at https://seiecremotelibrary.fly.dev
 
 ## Structure
 

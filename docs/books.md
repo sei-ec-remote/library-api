@@ -15,7 +15,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/books"
 
 curl  "${API}${URL_PATH}"\
@@ -69,7 +69,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/books"
 
 curl  "${API}${URL_PATH}/${ID}" \
@@ -119,7 +119,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/books"
 
 curl "${API}${URL_PATH}" \
@@ -176,7 +176,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/books"
 
 curl "${API}${URL_PATH}/${ID}" \
@@ -220,7 +220,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/books"
 
 curl "${API}${URL_PATH}/${ID}" \

@@ -15,7 +15,7 @@ Example Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/authors"
 
 curl  "${API}${URL_PATH}"\
@@ -61,7 +61,7 @@ Example Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/authors"
 
 curl  "${API}${URL_PATH}/${ID}" \
@@ -113,7 +113,7 @@ Example Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/authors"
 
 curl "${API}${URL_PATH}" \
@@ -170,7 +170,7 @@ Example Curl Request:
 ```sh
 #!/bin/bash
 
-API="https://library-express-api.herokuapp.com"
+API="https://seiecremotelibrary.fly.dev"
 URL_PATH="/authors"
 
 curl  "${API}${URL_PATH}/${ID}" \
@@ -215,7 +215,7 @@ Example Curl Request:
 ```sh
 #!/bin/bash
 
-curl --include --request DELETE "https://library-express-api.herokuapp.com/authors/${ID}"
+curl --include --request DELETE "https://seiecremotelibrary.fly.dev/authors/${ID}"
 
 echo
 ```

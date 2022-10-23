@@ -14,7 +14,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-curl "https://library-express-api.herokuapp.com/sign-up" \
+curl "https://seiecremotelibrary.fly.dev/sign-up" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
@@ -59,7 +59,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-curl "https://library-express-api.herokuapp.com/sign-in" \
+curl "https://seiecremotelibrary.fly.dev/sign-in" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
@@ -113,7 +113,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-curl "https://library-express-api.herokuapp.com/change-password" \
+curl "https://seiecremotelibrary.fly.dev/change-password" \
   --include \
   --request PATCH \
   --header "Authorization: Bearer ${TOKEN}" \
@@ -155,7 +155,7 @@ Curl Request:
 ```sh
 #!/bin/bash
 
-curl "https://library-express-api.herokuapp.com/sign-out" \
+curl "https://seiecremotelibrary.fly.dev/sign-out" \
   --include \
   --request DELETE \
   --header "Content-Type: application/json" \
