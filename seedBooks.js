@@ -1,3 +1,4 @@
+// STRANGE bug happening where you have to seed maybe twice for it to work correctly
 require('dotenv').config()
 const mongodb = require("mongodb").MongoClient
 const csvtojson = require("csvtojson")
@@ -14,6 +15,21 @@ csvtojson()
 
 const mongoUrl = process.env.MONGODB_URI
 
+mongodb.connect(
+  mongoUrl,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+  (err, client) => {
+    if (err) throw err;
+    client
+      .db("library")
+      .collection("books")
+      .deleteMany({}, (err, res) => {
+        if (err) throw err;
+        console.log(`Deleted: ${res.deletedCount} rows`);
+        client.close();
+      });
+  }
+)
 mongodb.connect(
   mongoUrl,
   { useNewUrlParser: true, useUnifiedTopology: true },
